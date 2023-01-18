@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        using var sr = new System.IO.StreamReader(Console.OpenStandardInput());
-        using var sw = new System.IO.StreamWriter(Console.OpenStandardOutput());
+        using var sr = new StreamReader(Console.OpenStandardInput());
+        using var sw = new StreamWriter(Console.OpenStandardOutput());
         int N = int.Parse(sr.ReadLine());
         int[] arr = new int[10001];
 
